@@ -1,0 +1,535 @@
+body{
+    background-color: rgb(152, 248, 216);
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(37, 71, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .nav{
+    height: 80px;
+    width: 90%;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header .nav .nav1 ul{
+    display: inline-flex;
+}
+.header .nav .nav1{
+    display: flex;
+    align-items: center;
+}
+.header .nav .nav1 ul li{
+    list-style-type: none;
+}
+.header .nav .nav1 ul li a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: larger;
+    color: black;
+    font-weight: 400;
+}
+.header .nav .logo img{
+    height: 100px;
+    width: 120px;
+}
+.header .nav .nav1 ul li a:hover{
+    color:rgb(152, 248, 216);
+}
+.crousel{
+    background-image: url(./nike4png.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+   
+    display: flex;
+    flex-direction:column ;
+    text-align: center;
+    align-items: center;
+
+
+}
+.crousel h4{
+    /* color: rgb(61, 83, 40); */
+    font-size: 25px;
+   color: rgb(38, 58, 20);
+}
+.crousel h1{
+    color: rgb(38, 58, 20);
+    width: 450px;
+    font-size: 50px;
+}
+.crousel button{
+    padding: 10px;
+    font-size: larger;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    color:rgb(20, 53, 42) ;
+    font-weight: 500;
+    border: 1px solid rgb(152, 248, 216);
+    margin-top: 200px;
+}
+.crousel button:hover{
+    background-color:rgb(20, 53, 42) ;
+    color: whitesmoke;
+    transition: all linear 0.8;
+    cursor: pointer;
+
+}
+.about{
+    width: 100%;
+    height: 550;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.about .text_ab{
+    font-size: 25px;
+    width: 800px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.about .about1{
+    display: flex;
+    width: 900px;
+    align-items: center;
+}
+.about .about1 .about_text1 button{
+    padding: 10px;
+    font-size: larger;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    color:rgb(20, 53, 42) ;
+    font-weight: 500;
+    border: 1px solid rgb(152, 248, 216);
+
+}
+.about .about1 .about_text1 button:hover{
+     background-color:rgb(20, 53, 42) ;
+    color: whitesmoke;
+    transition: all linear 0.8;
+    cursor: pointer;
+}
+.about .about1 .about_img img{
+    width: 250px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 40px;
+}
+.product{
+    margin-top: 50px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.product .vid video{
+    height: 300px;
+    width: 700px;
+    border-radius: 30px;
+}
+.product .pro_text{
+   
+    width: 700px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+    color: rgb(214, 209, 209);
+    height: 300px;
+}
+.product .pro_text p{
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.product .pro_text button{
+     padding: 10px;
+    font-size: larger;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    color:rgb(20, 53, 42) ;
+    font-weight: 500;
+    border: 1px solid rgb(119, 250, 206);
+ 
+}
+.product .pro_text button:hover{
+      background-color:rgb(5, 129, 61) ;
+    color: whitesmoke;
+    transition: all linear 0.8;
+    cursor: pointer;
+}
+.service{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+.service .service_text{
+    width: 550px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.service .card .card1{
+    background-color: rgb(94, 185, 143);
+    width: 300px;
+    height: 450px;
+    color: whitesmoke;
+    border-radius: 50px;
+}
+    
+.service .card{
+    display: flex;
+   
+    width: 1500px;
+    height: 600px;
+    justify-content: space-around;
+}
+.service .card .card1 .logo img{
+    height: 200px;
+    width: 200px;
+    margin-top: -80px;
+    border-radius: 100px;
+}
+.service .card .card1 .card_text a{
+    color: rgb(29, 92, 71);
+}
+.gallery{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.gallery .gal_text{
+    font-size: 25px;
+   
+}
+.gallery .gal{
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gallery .gal img{
+    height: 200px;
+    width: 300px;
+    margin: 8px;
+     border-radius: 100%;
+}
+.gallery .gal img:hover{
+    height: 220px;
+    width: 330px;
+    transition: all linear 0.6s;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.footer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(66, 124, 105);
+}
+.footer .f_logo img{
+    height: 100px;
+    width:  100px;
+}
+.footer .f_icon i{
+    padding: 8px;
+    margin: 10px;
+    border-radius: 150px;
+    border: 2px solid rgb(192, 192, 192);
+    color: rgb(247, 244, 244);
+    font-size: 20px;
+
+}
+.footer .f_icon i:hover{
+    background-color: rgb(94, 93, 93);
+    color: rgb(141, 228, 141);
+    cursor: pointer;
+}
+.footer .f_add{
+    display: flex;
+}
+.footer .f_add .f1{
+    margin: 10px;
+}
+.footer .f_add .f1 pre{
+    margin-left: 70px;
+    font-size: 15px;
+}
+.main_product{
+    width: 100%;
+    height: auto;
+   
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.main_product .p_header {
+    width: 1200px;
+    height: auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_product .p_cards .p_rows{
+    display: flex;
+    text-align: center;
+}
+.main_product .p_cards .p_rows .p_card1{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(95, 89, 89);
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.main_product .p_cards .p_rows .p_card1 h4{
+    font-size: 25px;
+    background-color: rgb(28, 196, 140);
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_product .p_cards .p_rows .p_card1:hover{
+    background-color: rgb(65, 148, 72);
+}
+.main_product .p_cards .p_rows .p_card1:hover button{
+    background-color: rgb(85, 87, 86);
+    color: rgb(238, 234, 234);
+}
+.main_product .p_cards .p_rows .p_card1:hover h3{
+    color:  rgb(104, 100, 100);
+}
+.main_product .p_cards .p_rows .p_card1 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    border: 5px solid rgb(37, 77, 37);
+}
+.main_product .p_cards .p_rows .p_card1 h3{
+    font-weight: 800;
+    font-size: 20px;
+}
+.main_product .p_cards .p_rows .p_card1 button{
+    padding: 8px;
+    border-radius: 20px;
+    background-color:rgb(52, 129, 52) ;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+.gal_nav{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+.gal_nav .g_nav{
+    height: auto;
+    width: auto ;
+    display: flex;
+}
+.gal_nav .g_nav ul{
+    display: inline-flex;
+}
+.gal_nav .g_nav ul li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: larger;
+    background-color: rgb(2,116,2);
+    border-radius: 20px;
+    font-weight: 500;
+    border: 2px solid rgb(79,78,79);
+    margin: 10px;
+}.gal_nav .g_nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: larger;
+    font-weight: 400;
+    color: rgb(213,212,212);
+
+}
+.gal_nav .g_nav ul li:hover{
+    background-color: rgb(72,73,72);
+}
+.gal_nav .g_nav ul li:hover a{
+    color: rgb(213,212,212);
+}
+
+
+.contact{
+    margin-top: 150px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact .cont_text h1{
+    font-size: 40px;
+}
+.contact .form{
+    height: 330px;
+    width: 550px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact .form form input[type="text"]{
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 15px;
+}
+.contact .form form input[type="email"]{
+      height: 30px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 15px;
+}
+.contact .form form textarea{
+    height: 100px;
+    width: 500px;
+    border-radius: 6px;
+    font-size: 15px;
+    margin: 5PX;
+}
+.contact .form form input[type="submit"]{
+    height: 40px;
+    width: 500px;
+    border-radius: 20px;
+    border: 1px solid rgb(84, 173, 84);
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 550;
+    background-color: rgb(74, 172, 74);
+    color: rgb(53, 51, 51);
+}
+.contact .form form input[type="submit"]:hover{
+    background-color: rgb(66, 65, 65);
+    color: whitesmoke;
+}
+.contact .form form input{
+    margin: 5px;
+}
+.login{
+    height: 500px;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.login .log_page{
+    height: 450px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: rgb(85, 145, 79);
+}
+.login .log_page .log_img img {
+    height: 400px;
+    width: 250px;
+}
+.login .log_page .forms {
+    height: 400px;
+    width: 250px;
+    background-color: rgb(91, 215, 231);
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   margin: 8px;
+   
+}
+.login .log_page .forms form input{
+    width: 200px;
+    padding: 8px;
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 20px;
+    
+
+}
+.login .log_page .forms form a button{
+    width: 200px;
+    border: 2px solid rgb(34, 34, 34);
+   background-color: rgb(103, 194, 103);
+    color: rgb(29, 28, 28);
+    border-radius: 20px;
+    padding: 10px;
+}
+.login .log_page .forms form a button:hover{
+    background-color: rgb(62, 65, 62);
+    color: rgb(241, 235, 235);
+}
+.login .log_page .forms form button{
+     width: 200px;
+    border: 2px solid rgb(34, 34, 34);
+    background-color: rgb(103, 194, 103);
+    color: rgb(29, 28, 28);
+    border-radius: 20px;
+    padding: 10px;
+}
+.login .log_page .forms form  button:hover{
+    background-color: rgb(62, 65, 62);
+    color: rgb(241, 235, 235);
+}
+.login .log_page .forms form h5 a{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
